@@ -94,4 +94,4 @@ The motif IDs represent the following motifs:
 
 The which orbit IDs correspond to which motif IDs is described in `hin.motif.hash.py`.
 
-For questions please contact [Christian](mailto:cbe@informatik.uni-kiel.de).
+For questions please contact [Christian](mailto:cbe@informatik.uni-kiel.de) or [Mattis](mailto:mts@cs.uni-kiel.de).
