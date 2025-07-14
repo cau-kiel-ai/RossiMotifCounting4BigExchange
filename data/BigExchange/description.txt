@@ -1,0 +1,35 @@
+Big Exchange
+----------
+
+Contains a heterogeneous publication graph of 17 integrated datasets covering archaeological finds of 11 different materials as well as their context information.
+
+nodes.csv
+---------
+Each line contains a type ID as integers indicating which type the node indicated by the line number has (in line 1 the first node is referenced).
+For example, line 1 having a value of 0 signifies that the first node (line 1, ID 0) has the first node type (as type counting starts at 0), which is explained in node_types.csv.
+
+node_types.csv
+--------------
+Each line maps a node type ID (starting at 0) to its textual description.
+For example, line 1 containing the value 'Country' signifies that the first node type (node type ID 0) has the label 'Country'.
+Hence, node 1 from the previous example is a country-type node.
+
+
+edges.csv
+---------
+Each line contains a source node ID, edge type ID, and destination node IDs, all encoded as integers and separated by comma.
+The edge IDs is indicated by the line number.
+For example, line 1 '95,0,4654' signifies that the first edge (line 1, ID 0) of the first edge type (ID 0) points from node 95 to node 4654.
+The entries are primarily sorted by the souce node ID, followed by the edge type ID, followed by the destination node ID.
+
+edge_type.csv
+-------------
+Each line maps an edge type ID (starting at 0) to its textual description.
+For example, line 1 containing the value 'culture_literature' signifies that the first edge type (edge type ID 0) has the label 'culture_literature'.
+Hence, edge 0 from the previous example is a 'culture_literature'-type edge.
+
+
+schema.csv
+----------
+Each line maps an edge type ID indicated by the line number to its source node type ID and its destination type ID, separated by comma.
+For example, line 1 containing '1,2' signifies that the first edge type (ID 0) points from nodes of type 1 to nodes of type 2.
