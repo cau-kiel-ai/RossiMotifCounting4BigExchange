@@ -2,12 +2,12 @@
 
 This implementation counts 3- and 4-node motifs (also referred to as graphlets)
 in heterogeneous information networks (HINs).
-It was created by Mattis thor Straten and Christian Beth and is based on the
+It was created by [Mattis thor Straten](mailto:mts@cs.uni-kiel.de) (Kiel University) and [Christian Beth](mailto:cbe@cs.uni-kiel.de) (Kiel University) and is based on the
 paper _"Heterogeneous Graphlets"_ by Rossi et al., which can be found
-[here](https://dl.acm.org/doi/abs/10.1145/3418773?casa_token=W4FnTuzKs5IAAAAA:VC3vCOfR6vS-3LB7XkfbEzgZBAaaB_y9eek_jdcAmsixqrI6OP2y0ts8T8gWTqkBD6lNLaK0Q3Vihg).
+[here](https://dl.acm.org/doi/abs/10.1145/3418773?casa_token=W4FnTuzKs5IAAAAA:VC3vCOfR6vS-3LB7XkfbEzgZBAaaB_y9eek_jdcAmsixqrI6OP2y0ts8T8gWTqkBD6lNLaK0Q3Vihg) (TKDD'20).
+Please note that while the implementation closely follows the paper, we are not the original authors of the paper, so there may be accidental discrepancies.
 
-When using this implementation, credit should be given to the paper's
-original authors:
+When using this implementation, credit should be given to the paper's original authors:
 ````
 @article{rossi2020heterogeneous,
   title={Heterogeneous graphlets},
@@ -94,4 +94,4 @@ The motif IDs represent the following motifs:
 
 The which orbit IDs correspond to which motif IDs is described in `hin.motif.hash.py`.
 
-For questions please contact [Christian](mailto:cbe@informatik.uni-kiel.de) or [Mattis](mailto:mts@cs.uni-kiel.de).
+For questions please contact [Christian Beth](mailto:cbe@cs.uni-kiel.de) or [Mattis thor Straten](mailto:mts@cs.uni-kiel.de).
